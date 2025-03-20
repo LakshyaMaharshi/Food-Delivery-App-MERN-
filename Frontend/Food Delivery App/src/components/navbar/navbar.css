@@ -1,0 +1,71 @@
+.navbar-div{
+    margin: 3vh 0 5vh 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.L-nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 2rem; */
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.navbar-div div img {
+    height: 4vh;
+}
+
+.text-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    list-style: none;
+}
+
+.text-ul li{
+    cursor: pointer;
+}
+
+.text-ul .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    transition: 0.15s;
+}
+
+.R-nav-div{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+
+.R-nav-div button {
+    background: transparent;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.cart-div{
+    position: relative;
+}
+
+.cart-div .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 85, 0);
+    position: absolute;
+    top:-2px;
+    right:-2px
+}
+
